@@ -1,7 +1,7 @@
 (function(self) {
   'use strict';
 
-  if (self.NodeList.prototype.forEach) { 
+  if (self.NodeList.prototype.forEach) {
     return;
   }
 
@@ -11,4 +11,3 @@
     }
   };
 })(typeof self !== 'undefined' ? self : this);
-

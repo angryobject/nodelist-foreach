@@ -4,3 +4,8 @@ Thumbs.db
 *.swp
 .idea
 ./.vscode
+
+npm-debug.log
+yarn-error.log
+
+node_modules

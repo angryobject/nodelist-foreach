@@ -3,5 +3,11 @@
   "version": "1.0.0",
   "description": "Add forEach on NodeList for non supporting browsers",
   "license": "MIT",
-  "main": "nodelist-foreach.js"
+  "main": "nodelist-foreach.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^20.0.4"
+  }
 }
