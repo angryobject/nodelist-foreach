@@ -1,0 +1,7 @@
+{
+  "name": "nodelist-foreach",
+  "version": "1.0.0",
+  "description": "Add forEach on NodeList for non supporting browsers",
+  "license": "MIT",
+  "main": "nodelist-foreach.js"
+}
