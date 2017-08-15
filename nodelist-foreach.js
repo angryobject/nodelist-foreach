@@ -6,8 +6,8 @@
   }
 
   self.NodeList.prototype.forEach = function forEach(cb, thisArg) {
-    for (let i = 0; i < this.length; i++) {
-      thisArg ? cb.call(thisArg, this[i], i, this) : cb(this[i], i, this);
+    for (var i = 0; i < this.length; i++) {
+      cb.call(thisArg, this[i], i, this);
     }
   };
 })(typeof self !== 'undefined' ? self : this);
