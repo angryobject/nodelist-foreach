@@ -1,6 +1,6 @@
 {
   "name": "nodelist-foreach",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add forEach on NodeList for non supporting browsers",
   "main": "nodelist-foreach.js",
   "license": "MIT",
@@ -16,7 +16,6 @@
     "type": "git",
     "url": "https://github.com/angryobject/nodelist-foreach"
   },
-  
   "scripts": {
     "test": "jest"
   },
