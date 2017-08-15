@@ -2,8 +2,21 @@
   "name": "nodelist-foreach",
   "version": "1.0.0",
   "description": "Add forEach on NodeList for non supporting browsers",
-  "license": "MIT",
   "main": "nodelist-foreach.js",
+  "license": "MIT",
+  "author": {
+    "name": "Max Shishkin"
+  },
+  "homepage": "https://github.com/angryobject/nodelist-foreach",
+  "keywords": [
+    "nodelist",
+    "foreach"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angryobject/nodelist-foreach"
+  },
+  
   "scripts": {
     "test": "jest"
   },
